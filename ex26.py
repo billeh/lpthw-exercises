@@ -1,5 +1,3 @@
-import ex25
-
 def break_words(stuff):
     """This function will break up words for us."""
     words = stuff.split(' ')
@@ -11,7 +9,7 @@ def sort_words(words):
 
 def print_first_word(words):
     """Prints the first word after popping it off."""
-    word = words.pop(0)
+    word = words.poop(0)
     print word
 
 def print_last_word(words):
@@ -54,14 +52,14 @@ print "--------------"
 print poem
 print "--------------"
 
-five = 10 - 5
+five = (10 - 3) + (3 - 5)
 print "This should be five: %s" % five
 
 def secret_formula(started):
-    beans = started * 500
-    jars = beans / 1000
+    jelly_beans = started * 500
+    jars = jelly_beans / 1000
     crates = jars / 100
-    return beans, jars, crates
+    return jelly_beans, jars, crates
 
 
 start_point = 10000
